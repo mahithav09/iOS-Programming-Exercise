@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1600A72E810BD100A24C1E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2B1600A62E810BD100A24C1E /* README.md */; };
 		2B16FEE82E81036D00A24C1E /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 2B16FEE72E81036D00A24C1E /* AsyncAlgorithms */; };
 		2B16FFAE2E81070200A24C1E /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 2B16FFAD2E81070200A24C1E /* AsyncAlgorithms */; };
 /* End PBXBuildFile section */
@@ -22,6 +23,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B1600A62E810BD100A24C1E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2B16FE4F2E80FC5600A24C1E /* CountriesSOLID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesSOLID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B16FEED2E8104A900A24C1E /* CountriesSOLIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountriesSOLIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 				2B16FFA62E81066F00A24C1E /* CountriesSOLIDTests */,
 				2B16FE512E80FC5600A24C1E /* CountriesSOLID */,
 				2B16FE502E80FC5600A24C1E /* Products */,
+				2B1600A62E810BD100A24C1E /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1600A72E810BD100A24C1E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
