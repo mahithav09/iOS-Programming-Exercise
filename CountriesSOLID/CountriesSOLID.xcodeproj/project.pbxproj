@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2B16FEE32E80FF8700A24C1E /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 2B16FEE22E80FF8700A24C1E /* AsyncAlgorithms */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2B16FE4F2E80FC5600A24C1E /* CountriesSOLID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesSOLID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -29,6 +33,11 @@
 			path = CountriesSOLID;
 			sourceTree = "<group>";
 		};
+		2B16FEDE2E80FEAC00A24C1E /* CountriesSOLIDTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CountriesSOLIDTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B16FEE32E80FF8700A24C1E /* AsyncAlgorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +57,7 @@
 			children = (
 				2B16FE512E80FC5600A24C1E /* CountriesSOLID */,
 				2B16FE502E80FC5600A24C1E /* Products */,
+				2B16FEDE2E80FEAC00A24C1E /* CountriesSOLIDTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,9 +86,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				2B16FE512E80FC5600A24C1E /* CountriesSOLID */,
+				2B16FEDE2E80FEAC00A24C1E /* CountriesSOLIDTests */,
 			);
 			name = CountriesSOLID;
 			packageProductDependencies = (
+				2B16FEE22E80FF8700A24C1E /* AsyncAlgorithms */,
 			);
 			productName = CountriesSOLID;
 			productReference = 2B16FE4F2E80FC5600A24C1E /* CountriesSOLID.app */;
@@ -107,6 +120,9 @@
 			);
 			mainGroup = 2B16FE462E80FC5600A24C1E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2B16FEE12E80FF8700A24C1E /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2B16FE502E80FC5600A24C1E /* Products */;
 			projectDirPath = "";
@@ -341,6 +357,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B16FEE12E80FF8700A24C1E /* XCRemoteSwiftPackageReference "swift-async-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-async-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B16FEE22E80FF8700A24C1E /* AsyncAlgorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B16FEE12E80FF8700A24C1E /* XCRemoteSwiftPackageReference "swift-async-algorithms" */;
+			productName = AsyncAlgorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2B16FE472E80FC5600A24C1E /* Project object */;
 }
